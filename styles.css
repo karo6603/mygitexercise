@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: rgb(236, 139, 139);
+}
+
+nav a {
+  border-left: 2px solid black;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+}
+
+nav a:first-child {
+  border: none;
+}
